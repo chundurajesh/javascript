@@ -1,0 +1,6 @@
+let numbers = [10, 20, 30, 40,];
+
+let result = numbers.find(function(num){
+    return num > 25;
+});
+console.log(result);
